@@ -51,4 +51,19 @@ To download the dataset, please check the [official repository](https://github.c
   ### Once you find the dress you like, finding out how you look in that dress is just a click away!
 Upload the photo of the dress you want to try on and see how one might look based on the pre processed images given below
 
+## Techniques used
+
+  * ### Body part Segmentation
+       Body segmentation using deep learning involves training neural networks to identify and delineate human body parts in images or videos. Utilizing architectures like U-Net or Mask R-CNN, these models learn to precisely segment body regions, enabling applications in virtual try-on, pose estimation, and human-computer interaction.
 Feel free to customize this template based on the specific details of your project and your preferences. Include additional sections if needed to provide more information about your project.
+![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/64f071c2-b91b-42eb-b78f-ca265bd502fa)
+
+* ### Image masking
+  In Python, binary image masks are created by thresholding an image, assigning pixel values to either 0 or 1. The OpenCV library is commonly used for this task. For instance, using the `cv2.threshold` function, pixels above a certain threshold become white (1), and those below become black (0). Binary masks are fundamental in image processing, allowing the selective manipulation of specific regions, such as object segmentation or background removal.
+
+  ![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/ff5aee6a-eb01-4745-8375-ebdd19fb1892)
+
+* ### Image Distortions
+  In Python, image distortions using binary masks involve applying spatial transformations selectively to regions defined by the mask. The `cv2.warpAffine` or `cv2.warpPerspective` functions in OpenCV allow affine or perspective transformations based on binary masks. By specifying regions to distort, such as rotations or translations, these masks enable precise and localized distortions. This technique is valuable for targeted image manipulations, such as warping specific areas while maintaining the integrity of the rest of the image.
+  ![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/efd4b00e-2048-4cf5-8ca9-8f799e1886bd)
+![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/2b53e523-84ba-4be9-98e8-23bc92943e27)
