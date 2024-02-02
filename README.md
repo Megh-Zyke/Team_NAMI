@@ -61,7 +61,11 @@ Feel free to customize this template based on the specific details of your proje
 * ### Image masking
   In Python, binary image masks are created by thresholding an image, assigning pixel values to either 0 or 1. The OpenCV library is commonly used for this task. For instance, using the `cv2.threshold` function, pixels above a certain threshold become white (1), and those below become black (0). Binary masks are fundamental in image processing, allowing the selective manipulation of specific regions, such as object segmentation or background removal.
 
-  ![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/ff5aee6a-eb01-4745-8375-ebdd19fb1892)
+  ![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/119fa7aa-3fbc-4bd9-b4e1-ab904b40c804)
+
+  ![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/5cafd5bd-3bc1-4d4b-87e5-92c0eb6df460)
+
+
 
 * ### Image Distortions
   In Python, image distortions using binary masks involve applying spatial transformations selectively to regions defined by the mask. The `cv2.warpAffine` or `cv2.warpPerspective` functions in OpenCV allow affine or perspective transformations based on binary masks. By specifying regions to distort, such as rotations or translations, these masks enable precise and localized distortions. This technique is valuable for targeted image manipulations, such as warping specific areas while maintaining the integrity of the rest of the image.
