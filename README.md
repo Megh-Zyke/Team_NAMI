@@ -47,21 +47,8 @@ To download the dataset, please check the [official repository](https://github.c
 
 ## Usage
 
-[Provide instructions on how to use or run your project.]
-
-## References
-
-- [VITON-HD Paper](https://github.com/shadow2496/VITON-HD)
-- [Original Repository](https://github.com/shadow2496/VITON-HD)
-
-## Contributing
-
-[Include information about how others can contribute to your project.]
-
-## License
-
-[Specify the license under which your project is distributed.]
-
----
+### Stuck on what you want to wear ? Well not anymore
+  ### Once you find the dress you like, finding out how you look in that dress is just a click away!
+Upload the photo of the dress you want to try on and see how one might look based on the pre processed images given below
 
 Feel free to customize this template based on the specific details of your project and your preferences. Include additional sections if needed to provide more information about your project.
