@@ -55,7 +55,7 @@ Upload the photo of the dress you want to try on and see how one might look base
 
 ## Techniques used
 
-  * ### Body part Segmentation
+   ### Body part Segmentation
        Body segmentation using deep learning involves training neural networks to identify and delineate human body parts in images or videos. Utilizing architectures like U-Net or Mask R-CNN, these models learn to precisely segment body regions, enabling applications in virtual try-on, pose estimation, and human-computer interaction.
 Feel free to customize this template based on the specific details of your project and your preferences. Include additional sections if needed to provide more information about your project.
 ![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/64f071c2-b91b-42eb-b78f-ca265bd502fa)
