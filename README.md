@@ -61,7 +61,7 @@ Feel free to customize this template based on the specific details of your proje
 ![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/64f071c2-b91b-42eb-b78f-ca265bd502fa)
 
 * ### Image masking
-  In Python, binary image masks are created by thresholding an image, assigning pixel values to either 0 or 1. The OpenCV library is commonly used for this task. For instance, using the `cv2.threshold` function, pixels above a certain threshold become white (1), and those below become black (0). Binary masks are fundamental in image processing, allowing the selective manipulation of specific regions, such as object segmentation or background removal.
+  In Python, binary image masks are created by thresholding an image, assigning pixel values to either 0 or 1. The OpenCV library is commonly used for this task. For instance, using the `cv2.threshold` function, pixels above a certain threshold become white (1), and those below become black (0). Binary masks are fundamental in image processing, allowing the selective manipulation of specific regions, such as object segmentation or  background removal.
 
   ![image](https://github.com/Megh-Zyke/Team_NAMI/assets/97515984/119fa7aa-3fbc-4bd9-b4e1-ab904b40c804)
 
